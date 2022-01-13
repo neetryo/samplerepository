@@ -1,0 +1,248 @@
+body {
+	padding: 0;
+	margin: 0;
+	/* line-height: 0; */ 
+	font-family: "Hiragino Kaku Gothic ProN";
+  }
+
+header{
+	height: 65px;
+	width: 100%;
+	background-color: rgba(16, 43, 78, 0.9);
+	text-align: center;
+	position:fixed;
+	top: 0px;
+}
+
+.header-left{
+	padding: 0 10px;
+}
+
+.header-right{
+	float: right;
+}
+
+.menu{
+	float: left;
+	padding: 0 25px;
+	line-height: 65px;
+	background-color: transparent;
+	margin-right: 5px;
+	transition: all 0.5s;
+}
+
+.menu:hover{
+	background-color:rgba(255, 255, 255, 0.5);
+}
+
+.logo{
+	float:left;
+	font-weight: bold;
+	line-height: 65px;
+	color: white;
+}
+
+.pro{
+	font-size: 18px;
+	margin-right:3px;
+	font-family: 'ヒラギノ角ゴ StdN','Hiragino Kaku Gothic StdN',sans-serif;
+}
+
+.neet{
+	font-size: 25px;
+	font-family: 'ヒラギノ角ゴ StdN','Hiragino Kaku Gothic StdN',sans-serif;
+}
+
+ul{
+	list-style: none;
+}
+
+.login{
+	float: right;
+}
+
+.top-wrapper{
+	/* height: 200px; */
+
+	background-image: url(img/ash-from-modern-afflatus-NQ6Lh81BTRs-unsplash.jpg); 
+	background-size: 0 auto;
+	background-size: cover;
+	padding: 300px 0 250px;
+	text-align: center;
+}
+
+.top-wrapper h1{
+	font-size: 60px;
+	color: rgb(255, 255, 255);
+	letter-spacing:2px;
+	text-shadow: slategrey 1px 0 6px;
+	margin-bottom: 30px;
+}
+
+.top-wrapper p{
+	color: white;
+	font-size: 20px;
+	text-shadow: slategrey 1px 0 6px;
+}
+
+.container{
+	width: 1170px;
+	margin: 0 auto;
+}
+
+a{
+	color: aliceblue;
+	text-decoration: none;
+}
+
+.inform-wrapper{
+	text-align: center;
+	background-color: rgba(221, 233, 227, 0.514);
+	padding-bottom: 50px;
+}
+
+.inform-wrapper h2{
+	margin: 0;
+	padding: 30px 0;
+	color: rgba(36, 44, 65, 0.753);
+	font-size: 25px;
+}
+
+.work{
+	float: left;
+	color: rgba(36, 44, 65, 0.753);
+	margin-right: 50px;
+	text-align: left;
+}
+
+.work p{
+	margin: 0;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+.day{
+	
+	color: rgba(85, 139, 106, 0.814);
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.inform-icon{
+	/* width: 33%; */
+	padding: 15px 15px 10px;
+	background-color:white;
+	float: left;
+	border-radius: 10px;
+}
+
+.inform-icon a{
+	display: inline-block;
+}
+
+.img-pen{
+	border-radius: 10px;
+}
+
+.icon-work{
+	margin-right: 40px;
+}
+
+.clear{
+	clear: left;
+}
+
+.blog-wrapper{
+	padding: 50px 0 20px;
+	
+}
+
+.border{
+	border-bottom: 4px solid rgba(228, 246, 235, 1) ;
+	
+}
+
+.blog-list{
+	font-size: 20px;
+	font-weight: bold;
+	color: rgba(36, 44, 65, 0.753);
+}
+
+.blog-li{
+	margin-top: 30px;
+}
+
+.blog-title{
+	margin: 0 10px 40px;
+}
+
+.b-space{
+	margin-right: 50px;
+}
+
+.blog-title a{
+	color: rgb(30, 42, 80, 0.5);
+}
+	
+.sns-wrapper{
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.sns-wrapper h2{
+	color: rgba(36, 44, 65, 0.753);
+	margin: 100px 0 30px;
+}
+
+.sns{
+	width: 60%;
+	margin: 0 auto;
+}
+
+.size{
+	font-size: 4rem;
+	margin-bottom: 7px;
+}
+
+.twitter{
+	color: #00acee;
+}
+
+
+.facebook{
+	color: #3b5998;
+}
+
+.line{
+	color: #00b900;
+}
+
+.sns-icon{
+	float:left;
+	width: 33.3%;
+}
+
+.sns-text{
+	margin: 0;
+	font-size: 13px;
+	color: rgb(30, 42, 80, 0.5);
+}
+
+.footing{
+	height: 100px;
+	
+	background-image: url(img/ash-from-modern-afflatus-NQ6Lh81BTRs-unsplash.jpg);
+	background-size: cover;
+	position: relative;
+	/* height: 100px; */
+}
+
+/* .footing::before{
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(16, 43, 78, 0.4);
+} */
